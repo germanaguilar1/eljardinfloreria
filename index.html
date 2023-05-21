@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Jardin Floreria</title>
+    <link rel="icon" href="icons/rosa.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>el jardin<br><span>floreria</span><img src="icons/rosablanca.png"></h1>
+            <input type="checkbox" id="menu-check">
+            <label id="menu" for="menu-check">
+                <span id="menu-abrir">&#9776;</span>
+                <span id="menu-cerrar">X</span>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#historia">HISTORIA</a></li>
+                    <li><a href="#noticias">NOTICIAS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li>
+                        <form action="http://www.google.com" id="searchbar" target="_blank">
+                            <input type="text" placeholder="Buscar..." name="buscar">
+                            <button class="buscar" type="submit">Buscar</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main><!--Frase + carousel-->
+    <div class="container">
+        <p>Los arreglos de tus sueños</p>
+            <div class="slider-frame"> <!--ANIMACION DE IMAGENES-->
+                <ul>
+                    <li><img src="img/slider1.jpg" alt="slider1"></li>
+                    <li><img src="img/slider2.jpg" alt="slider2"></li>
+                    <li><img src="img/slider3.jpg" alt="slider3"></li>
+                    <li><img src="img/slider4.jpg" alt="slider4"></li>
+                </ul>
+            </div>
+    </div>
+</main><!--Aside texto + imagen-->
+<section class="primero" id="historia">
+    <div class="container">
+            <h2>nuestra historia floral</h2>
+        <div class="arriba">
+            <img class="rosas" src="img/rosasparagraph.jpg" alt="Rosas">
+            <p>En ‘El Jardín’ estamos enamorados de la belleza natural y el poder emocional de las flores. Nuestro viaje comenzó hace varios años, inspirados por la capacidad única de las flores para transmitir emociones y crear momentos especiales, decidimos compartir esta pasión con el mundo.</p>
+            <p>Desde el principio, nos propusimos crear una experiencia excepcional para aquellos que buscan la frescura y la elegancia de las flores en cada ocasión. Nuestra dedicación nos llevó a buscar los proveedores más confiables y cultivadores expertos en todo el mundo. Nos aseguramos de seleccionar solo las flores más hermosas y de la más alta calidad para ofrecer a nuestros clientes.</p>
+            <p>Creemos que las flores tienen el poder de contar historias y crear conexiones significativas. Ya sea que desees expresar amor, celebrar un hito importante o simplemente alegrar el día de alguien, nos comprometemos a ayudarte a encontrar el arreglo floral perfecto que transmita tus sentimientos de manera única.</p>
+        </div>
+        <div class="abajo">
+            <p>Nuestro equipo de diseñadores florales talentosos combina habilidad artística y conocimiento floral para crear composiciones cautivadoras. Cada ramo que sale de nuestro taller es una obra de arte cuidadosamente confeccionada, donde cada pétalo y follaje se seleccionan con esmero para lograr una armonía perfecta.</p>
+            <p>La satisfacción de nuestros clientes es nuestra prioridad número uno. Nos enorgullece ofrecer un servicio personalizado y amable. Nuestro equipo está aquí para asesorarte en la selección de flores, colores y estilos que se adapten a tus necesidades y gustos. Queremos que tu experiencia de compra sea excepcional y que te sientas emocionado al recibir o regalar nuestras creaciones florales.</p> 
+            <p>Además, entendemos la importancia de la entrega oportuna y confiable. Trabajamos con servicios de mensajería de confianza para garantizar que tus flores lleguen frescas y en perfectas condiciones, en el momento justo para que puedas disfrutar de su belleza o sorprender a alguien especial.</p>
+            <img class="rosas2" src="img/arreglo.jpg" alt="rosas">
+        </div>
+    </div>
+</section>
+<aside class="segundo" id="noticias"><!--Aside para noticias-->
+    <div class="container">
+        <h3>noticias</h3>
+            <ul>
+                <li><img src="img/jardinvertical.jpg" width="60px" height="60px" alt="Jardin vertical"><a href="https://www.clarin.com/viste/como-crear-un-jardin-vertical-en-tu-hogar_0_jfgJ4smMKi.html"  target="_blank">Como crecer un jardín vertical.</a><p>Un pequeño paraíso verde. Así podría definirse al jardín vertical que cada vez es más común ver en casas y espacios públicos porque suma encanto a cualquier rincón y lo convierte en un paisaje digno de ver, admirar, sentir y disfrutar.
+                <a href="https://www.clarin.com/viste/como-crear-un-jardin-vertical-en-tu-hogar_0_jfgJ4smMKi.html"  target="_blank">+INFO
+                </a></p>
+                </li>
+                <li><img src="img/otonio.jpg" width="60px" height="60px" alt="Jardin vertical"><a href="https://www.lavoz.com.ar/espacio-de-marca/10-plantas-para-darle-color-a-tu-jardin-en-otono/" target="_blank">Top 10 plantas para tu jardin en otoño.</a><p>El 21 de marzo comienza el otoño y es momento de renovar las plantas del jardín para mantenerlo colorido durante los meses de frío. Grupo Edisur te cuenta 10 especies que crecen bien en esta temporada y no sufren las condiciones meteorológicas adversas.<a href="https://www.lavoz.com.ar/espacio-de-marca/10-plantas-para-darle-color-a-tu-jardin-en-otono/"  target="_blank">+INFO</a></p></li>
+                <li><img src="img/ficus.jpg" width="60px" height="60px" alt="ficus"><a href="https://www.lanacion.com.ar/lifestyle/ficus-pandurata-lo-que-hay-que-saber-sobre-la-planta-de-interior-de-moda-nid2133804/" target="_blank">Todo sobre el nuevo ficus de moda.</a><p>Es la especie preferida de las redes sociales y las revistas de decoración. Su mayor atractivo está en sus hojas grandes de un verde oscuro. Para que prospere, la clave es darle una correcta ubicación.<a href="https://www.lanacion.com.ar/lifestyle/ficus-pandurata-lo-que-hay-que-saber-sobre-la-planta-de-interior-de-moda-nid2133804/"  target="_blank">+INFO</a></p></li>
+            </ul>
+    </div>
+</aside>
+    <aside class="tercero" id="contacto">
+        <!--ESTRUCTURA DE FORMULARIO-->
+        <div class="container">
+            <h4>contacto</h4>
+            <form action="https://formspree.io/f/myyaagkl" method="post" target="_blank">
+                <label for="contact-name">Apellido y nombre:</label>
+                <input size="40" type="text" id="contact-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+                <label for="contact-email">Correo Electronico:</label>
+                <input size="40" type="email" id="contact-email" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+                <label></label>
+                <textarea name="comentario" rows="10" cols="40" placeholder="¿En qué podemos ayudarte?"></textarea><br>
+                <input type="submit" value="Enviar" onclick="return validateForm()">
+            <input type="reset" value="Borrar">
+            </form>
+            <!--validacion javascript-->
+            <span id="submit-error"></span>
+            <!--Parrafo random-->
+            <p>Al hacer click en "Enviar" usted queda suscripto automaticamente a nuestro newsletter.</p>
+        </div>
+</aside>
+    <aside class="cuarto">
+        <div class="container">
+            <ul>
+                <li><img src="icons/privacidad1.png"><a href="#">Privacidad</a></li>
+                <li><img src="icons/galletas2.png"><a href="#">Cookies</a></li>
+                <li><img src="icons/terminos3.png"><a href="#">Condiciones</a></li>
+                <li><img src="icons/legal4.png"><a href="#">Legal</a></li>
+            </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3688.9787455937853!2d-58.41491044174122!3d-34.588774586057404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1684037471070!5m2!1ses!2sar" width="600" height="300" style="border: 0px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+        </div>
+    </aside>
+</div>
+    <footer>
+            <div class="container">
+                <a>© Derechos reservados 2023</a>
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.youtube.com">Youtube</a>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
